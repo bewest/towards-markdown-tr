@@ -6,12 +6,12 @@ src_tapas = $(wildcard src/images/tapas/*.svg)
 out_tapas = $(patsubst %.svg,%.tif,$(src_tapas))
 
 toggle-test-dest:
-	sed "s,^destination:.*,destination: /srv/http/test.endefensadelsl.org," \
-		  -i _config.yml
+	# sed "s,^destination:.*,destination: /srv/http/test.endefensadelsl.org," \
+		  # -i _config.yml
 
 toggle-dest:
-	sed "s,^destination:.*,destination: /srv/http/endefensadelsl.org," \
-		  -i _config.yml
+	# sed "s,^destination:.*,destination: /srv/http/endefensadelsl.org," \
+		  # -i _config.yml
 
 build:
 	bundle exec jekyll build

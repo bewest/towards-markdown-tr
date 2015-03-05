@@ -1,0 +1,24 @@
+---
+layout: post
+author: Ben West
+title: "A Roadmap"
+draft: true
+---
+
+# Roadmap
+
+Some text.
+
+![Nightscout #wearenotwaiting](http://www.nightscout.info/wp-content/uploads/2014/08/cropped-Header2.png)
+[Sitio web][1] [Descarga][2]
+
+Edición comunitaria realizada en conjunto con la comunidad de
+[BuenosAiresLibre.org][3].
+
+El logo de BuenosAiresLibre se licencia bajo [CC-BY-SA-2.5Ar][4]
+
+
+[1]: http://wndw.net/ "Sitio web RIPD"
+[2]: http://wndw.net/pdf/wndw3-es/wndw3-es-ebook.pdf "Descargar RIPD en español"
+[3]: http://buenosaireslibre.org "BAL"
+[4]: http://creativecommons.org/licenses/by-sa/2.5/ar/ "Licencia del logo"
