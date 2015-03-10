@@ -1,29 +1,23 @@
-En Defensa del Software Libre
-=============================
+Generic, junk boiler plate
+==========================
 
-Revista de Software y Cultura Libres. Hecha
-en [Jekyll](http://jekyllrb.com/) y
-[Pandoc](http://johnmacfarlane.net/pandoc/) y distribuida por Web,
-Torrent y Papel.
+Make with [Jekyll](http://jekyllrb.com/) and
+[Pandoc](http://johnmacfarlane.net/pandoc/)
 
+This is a copy of https://github.com/edsl/endefensadelsl.org, and I'm
+basically just tweaking things to get it a little bit more general
+before re-tweaking it for specific uses.
 
-## Quiero contribuir
-
-Leer el archivo WORKFLOW, aunque estamos migrando los articulos a un
-[repositorio propio](https://github.com/edsl/articulos).
+Plan is to use something like this to collate simple markdown
+documents into a compiled suite of documents.
 
 
 ## Pandoc?
 
-Usamos las extensiones de Pandoc para Markdown, por ejemplo
-[@cita_bibtex] para referirse al archivo de referencias ref.bib,
-~~tachado~~, etc.
+Pandoc allows us to maintain simple markdown prose.
+Most documents are simply prose.  Often, depending on the kind of
+document, a few simple rules can tweak how the document is rendered so
+that it is accessible in a variety of formats: html, pdf, epub, docx,
+among many others.
 
 
-## TODO
-
-* Usar javascript para convertir las notas al pie en tooltips
-
-* Encontrar una webfont que se vea mejor
-
-* [Ver issues](https://github.com/edsl/endefensadelsl.org/issues)
