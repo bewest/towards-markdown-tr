@@ -1,5 +1,6 @@
 markdown: pandoc
 title: "Test publications"
+foo: '--template=layouts/toc.html'
 pandoc:
     skip: false
     output: ./tmp
@@ -7,7 +8,7 @@ pandoc:
             --section-divs --email-obfuscation=references'
     site_flags: '--toc --template=layouts/toc.html'
     outputs:
-        pdf: '-V fontsize=12pt,letter
+        pdf: '-V fontsize=12pt
                 -V documentclass=article
                 -V geometry=hcentering
                 -V geometry=bindingoffset=1cm
@@ -41,4 +42,4 @@ permalink: ":title.html"
 lsi: false
 
 torrent:
-  file: endefensadel.torrent
+  file: nightscout.torrent

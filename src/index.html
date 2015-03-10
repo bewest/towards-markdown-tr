@@ -6,13 +6,14 @@ title: Nightscout publications
 <header>
   <h1>{{site.title}}</h1>
 
-  <blockquote><p>Los servidores ganaron libertad. Los clientes no ganaron
-  nada.  Bienvenidos a la nube. <span class="citation">Eben
-  Moglen</span></p></blockquote>
+  <blockquote><p>
+    Diabetes is the enemy.
+    <span class="citation">Lane</span>
+  </p></blockquote>
 
 </header>
 
-<section id="articulos">
+<section id="reports">
 
   <h2>Published articles</h2>
 
@@ -25,7 +26,7 @@ title: Nightscout publications
     {% capture extension %}{{ format | first }}{% endcapture %}
     <dd><p><a href="{{ extension }}{{ post.url | remove:'.html' }}.{{ extension }}">{{ extension }}</a></p></dd>
     {% endfor %}
-    <dd><p><a href="{{ post.url }}#formats">all...</a></p></dd>
+    <dd><p><a href="{{ post.url }}#formats">...</a></p></dd>
 
   </dl>
 {% endfor %}
@@ -46,7 +47,7 @@ title: Nightscout publications
 </section>
 
 <footer>
-  <a href="licencia.html">License</a> |
+  <a href="license.html">License</a> |
   <a href="atom.xml">ATOM Feed</a> |
   <a href="atom_epub.xml">EPUB Feed</a> |
   <a href="atom_torrent.xml">Torrent Feed</a> |
